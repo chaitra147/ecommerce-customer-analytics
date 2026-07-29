@@ -1,0 +1,22 @@
+# Raw and processed data files (regenerate locally using the scripts in /data)
+data/*.csv
+dashboard/dashboard_dataset.csv
+outputs/rfm_segments.csv
+outputs/cohort_retention.csv
+ecommerce.db
+
+# Keep small chart images and the Excel workbook - these ARE meant to be
+# viewed directly in the repo, so they are NOT excluded:
+# outputs/*.png
+# outputs/phase1_excel_exploration.xlsx
+
+# Power BI - exclude if large; keep a dashboard screenshot instead
+*.pbix
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
